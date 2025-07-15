@@ -1,0 +1,36 @@
+
+---
+
+```gitignore
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data files (optional — only if you want to keep CSV private)
+# data/*.csv
+
+# Models
+*.pkl
+*.h5
+
+# Temporary files
+*.bak
+*.tmp
