@@ -54,8 +54,8 @@ Class balance (before preprocessing):
 | Not Hazardous    | 294,000  | 87%        |
 | Hazardous        | 44,000   | 13%        |
 
-![Class Balance](images/class_balance1.png)
-![Class Balance](images/class_balance2.png)
+![Class Balance](Images/class_balance1.png)
+![Class Balance](Images/class_balance2.png)
 ---
 
 ##  Exploratory Data Analysis (EDA)
@@ -65,7 +65,7 @@ Class balance (before preprocessing):
 - Velocity and miss distance have interesting relationships.
 - Brighter asteroids (lower magnitude) tend to be slightly larger and faster.
 
-![Correlation Heatmap](images/Before_Corr_Heatmap.png)
+![Correlation Heatmap](Images/Before_Corr_Heatmap.png)
 
 ---
 
@@ -88,7 +88,7 @@ Added new features:
 
 These engineered features helped boost model performance and reduce skewed distributions.
 
-![Correlation Heatmap](images/After_Corr_Heatmap.png)
+![Correlation Heatmap](Images/After_Corr_Heatmap.png)
 
 ---
 
