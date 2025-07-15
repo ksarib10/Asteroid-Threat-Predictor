@@ -54,7 +54,10 @@ Class balance (before preprocessing):
 | Not Hazardous    | 294,000  | 87%        |
 | Hazardous        | 44,000   | 13%        |
 
+**Pie Chart**
 ![Class Balance](Images/class_balance1.png)
+
+**Bar Graph**
 ![Class Balance](Images/class_balance2.png)
 ---
 
@@ -65,6 +68,7 @@ Class balance (before preprocessing):
 - Velocity and miss distance have interesting relationships.
 - Brighter asteroids (lower magnitude) tend to be slightly larger and faster.
 
+*Correlarion of the features*
 ![Correlation Heatmap](Images/Before_Corr_Heatmap.png)
 
 ---
@@ -88,6 +92,7 @@ Added new features:
 
 These engineered features helped boost model performance and reduce skewed distributions.
 
+*Correlation of the new features*
 ![Correlation Heatmap](Images/After_Corr_Heatmap.png)
 
 ---
@@ -137,7 +142,7 @@ Random Forest achieved:
 
 ##  Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/feature_importance.png)
 
 - Absolute magnitude and estimated diameter avg were the most significant predictors.
 
